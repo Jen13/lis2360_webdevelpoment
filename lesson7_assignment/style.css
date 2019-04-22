@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/*Justin Nixon-Hawes, 4/21/19*/
+
+body {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.6em;
+	color: #111111;
+	background-color: #111111;
+	padding: 0;
+	margin: 0;
+	
+}
+#container{
+	width: 1200px ;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #dddddd;
+}
+#sidebar{
+	float:right;
+	width: 400px;
+	padding: 20px 40px 20px 0px;
+}
+#sidebar p{
+	font-size:10px;
+}
+#footer{
+	padding: 10px 40px;
+	border-top-style: solid;
+	border-top-color: #ddbb00;
+	clear: both;
+}
+#header{
+	padding: 0px 0px;
+	margin-left: 0px;
+	border-bottom-style: solid;
+	border-bottom-color: #ddbb00;
+	border-bottom-width: 20px;
+}
+#header p{
+	padding: 0 0 0 40px;
+}
+#content{
+		padding: 0px 20px 0px 40px;
+		width:700px;
+		float: left;
+}
+
+}
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #111111;
+}
+h1 {
+	font-size: 24px;
+	padding: 4px 40px;
+	font-variant: small-caps;
+	letter-spacing: .5em;
+	line-height: 2em;
+	Margin: 0px;
+}
+h2 {
+    color: #111111;
+	font-size: 20px;
+	padding: 6px;
+	font-variant: small-caps;
+	letter-spacing: 0.5em;
+}
+h3 {
+	font-size: 17px;
+	letter-spacing: 0.5em;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	background-color: #ddbb00;
+	padding: 4px 0;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link ,a:visited {
+	font-weight: bold;
+	color: #ddbb00;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FFFF00;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	
+	margin-left: 12px;
+}
+ol {
+	margin-left: 14px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #999933 0px;
+}
+td {
+	padding: 6px;
+	border: solid #ddbb00 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #ddbb00;
+	color: #111111;
+	text-align: center;
+	padding: 6px;
+	border: solid #ddbb00 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #ddbb00 1px;
+}
+
+iframe {
+	border: solid #ddbb00 1px;
+	padding: 8px;
+	margin: 8px;
+}
