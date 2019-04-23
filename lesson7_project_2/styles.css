@@ -1,20 +1,113 @@
 body{
     padding: 0;
     margin: 0;
+    font-family: helvetica, arial, sans-serif;
 }
 #splash{
     height: 1000px;
     background-color: #111111;
+    background: url(images/splash.jpg) no-repeat center top fixed;
+    background-size: cover;
+}
+#title-page{
+  width: 100%;
+  padding-top: 250px; /* provides a lot of space above title to view the background image */
+  color: #fff;
+  text-align: right;
+}
+#title-page h1 {
+  font-family: 'Quicksand', sans-serif;
+  padding-right: 400px;
+  font-size: 80px; 	
+  text-shadow: 3px 3px #000; /* Shadow helps text to stand out from background */
+}
+#title-page h3 {
+  font-family: 'Quicksand', sans-serif;
+  padding-right: 200px;
+  font-size: 40px; 	
+  text-shadow: 3px 3px #000; /* Shadow helps text to stand out from background */
 }
 #overview{
-    height: 1000px;
-    background-color: #dddddd;
+    background-color: #8C034E;
+    color: #fff;
 }
-#media{
-    height: 1000px;
-    background-color: #ddbb00;
+#overview img{
+    float: right;
+    padding: 10px 10px;
+}
+#videos{
+    background: url(images/lta.jpg) no-repeat center top fixed;
+    background-size: cover;
+}
+#videos h1 {
+  font-family: 'Quicksand', sans-serif;
+  color:#fff;
+  padding-right: 100px;
+  font-size: 40px; 	
+  text-shadow: 3px 3px #000; /* Shadow helps text to stand out from background */
+}
+#videos iframe{
+    Padding: 20px 20px 40px 20px;
+}
+#author{
+    background-color: #260120;
+    color: #fff;
+    text-align: center;
 }
 #footer{
-    height: 1000px;
-    background-color: #111111;
+    background-color: #403F3C;
+}
+#cc {
+  text-align: center;	
+}
+#cc table{      
+  margin: 0 auto;		
+}
+#cc p {
+  font-size: .8em;
+  margin: 10px 0;
+  color:#fff;
+}
+#cc a {
+    color: #EE05F2;
+}
+/*-----------container--------*/
+.container {
+  width: 960px; /* static width container always stays at this width no matter what the window size */
+  margin: 0 auto;
+  overflow: hidden;
+}
+.half_container { 
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+
+/* ----------------- NAVIGATION BAR STYLES -------------------*/ 
+
+#navbar{
+	position: fixed; 
+	top: 0;
+	width: 100%;
+	height: 54px;
+	background-color: rgba(255, 255, 255, 0.8); 
+}	
+/* horizontal menu bars are typically created using a styled unordered list. Here's how! */
+ul#menu {
+	list-style: none; /* eliminates bullets */
+	/* adjust padding top to adjust nav bar vertical position */
+	padding-top: 0px;
+} 
+ul#menu li {
+	float: left; /* changes list from vertical to horizontal */
+	padding-bottom: 20px;
+} 
+ul#menu li a.button {
+    color:#000;
+	font-size: 16px;
+	text-decoration: none;
+	padding: 20px 100px 20px 100px; 
+}
+ul#menu li a.button:hover {
+	background-color: rgba(238, 5, 242, 0.5);
 }

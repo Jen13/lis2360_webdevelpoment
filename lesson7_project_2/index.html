@@ -1,21 +1,78 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> </title>
+        <title>Linux</title>
         <link href="styles.css" rel="stylesheet" type="text/css">
+        <link rel="icon" href="favicon.ico" >
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
     </head>
     <body>
 <section id="splash">
-    
+    <div id="navbar">
+	<div class="container">  <!-- container keeps everything aligned and centered no matter what the window size -->
+		<ul  id="menu">
+			<!-- button class provides button-like appearance and scrolling javascript (see bottom of html code) -->
+			<li><a href="#overview" class="button">Overview</a></li>
+			<li><a href="#videos" class="button">Videos</a></li>
+   			<li><a href="#author" class="button">Author </a></li>
+		</ul>
+	</div> <!-- end container -->
+    </div> <!-- end navbar -->
+    <div id="title-page">
+        <div class="container">
+            <h1>Linux</h1>
+            <h3> The Open Operating System</h3>
+        </div><!--end container-->
+    </div><!--end title-page-->
 </section><!--splash-->
 <section id="overview">
-    
+    <div class="container">
+        <h1>What is Linux?</h1>
+        <img src="images/ubuntu_apps.jpg" alt="ubuntu applications">
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In 1991 Linus Torvalds released a free operating system kernel which he called Linux. Torvalds was a believer in a free internet and so he declared his creation would be free for anyone to use and improve upon as they saw fit. </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Because the Linux kernel is open and users have been able to build upon it for years, legions of highly varied Linux based systems, also klnown as distributions available today. Some distributions aim to provide a desktop experience that surpasses what is available from Windows or Apple OS, others still forgo graphical user interfaces altogether in favor of direct terminal inputs. </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Since its inception, Linux has gone on to dominate the professional sector of computing needs. Servers, databases, kiosk displays and more are all powered by Linux. Because Linux is so open, professional users can adjust every minutiae of their systems to suit their exact needs. However Linux lags behind the competition in the desktop space. Since companines like Microsoft and Apple sell computers with their software installed users grow comfortable and familiar with those systems.</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Switching from the familiarity of Windows or OS X can be daunting for some, but Linux is all about community which means help is always readily available.For people interested in using linux, websites like distrowatch copmile links to downloads and information on various distributions to help prospective users decide which suits them best. Furthermore most distribution websites have install guides to help first time users find their footing.</p>
+    </div>
 </section><!--overview-->
-<section id="media">
-    
+<section id="videos">
+    <div class="container">
+        <h1>Linux in Action</h1>
+    <div class="half_container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zA3vmx0GaO8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2WLEur3M8Yk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="half_container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LWwkB6hGD4M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/i8LmwTl7dkg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
 </section><!--media-->
+<section id="author">
+    <div class="container">
+        <h2><em>About the Author</em></h2>
+        <img src="images/author.jpg" alt="a picture of Justin Nixon-Hawes">
+        <p>&nbsp;&nbsp;&nbsp;I chose to make a website about Linux because I've been learning about it a lot as an Information Technology major. We did an installation in one of my classes and the professor sings praises of linux but many of my classmates don't seem to care about it at all. However I joined the CyberSecurity Club and I've seen Graduate students and alumni use linux for hacking drills. I also see Linux projects on Reddit such as drones and Electronic Skateboards, so my interest has been piqued. </p>
+    </div>
+</section><!--author-->
 <section id="footer">
-    
+    <div class="container">
+        <div id="cc">
+        <table border="1px" width="200">
+                  <tr>
+                    <td bgcolor="#8C034E">&nbsp;</td>
+                    <td bgcolor="#ffffff">&nbsp;</td>
+                    <td bgcolor="#260120">&nbsp;</td>
+                  </tr>
+                  <tr>
+                      <td bgcolor="#EE05F2">&nbsp;</td>
+                      <td bgcolor="#403F3C">&nbsp;</td>
+                  </tr>
+         </table>
+        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+         <p>Copyright, 2019, <a href=mailto"justinhawes1@aol.com">Justin Nixon-Hawes</a></p>
+    </div>
+    </div>
 </section><!--footer-->
     </body>
 </html>
